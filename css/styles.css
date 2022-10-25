@@ -238,6 +238,8 @@ span{
 .team-section{
     background-color: var(--bgwhite-color);
     padding: 94px 0px 94px 0px;
+    width: 1600px;
+    align-items: center;
 }
 .list-team {
     display: flex;
