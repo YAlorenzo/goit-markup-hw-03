@@ -220,7 +220,7 @@ span{
 .p-alfa{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 0.8;
     letter-spacing: 0.03em;
     color: var(--inform-color);
 }
@@ -275,6 +275,13 @@ span{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+.padding {
+    padding-top: 0;
+}
+.iform-team {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 
 
@@ -307,7 +314,8 @@ span{
     display: flex;
     flex-direction: column;
     margin-bottom: 94px;
-    margin-top: 94px;
+    margin-top: 94px; 
+     /* padding: 94px 0; */
  }
 
 
@@ -325,17 +333,13 @@ span{
  .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
  }
  .portfolio-li {
-    margin-right: 30px;
-    margin-top: 30px;
+    width: 370px;
+    border: 1px solid #EEEEEE;
  }
-  .portfolio-li:nth-child(3n) {
-    margin-right: 0px;
- }
- .portfolio-li:nth-child(-n+3) {
-    margin-top: 0px;
- }
+ 
  .h-li{
     margin: 0px;
     font-weight: 700;
@@ -343,7 +347,7 @@ span{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding: 20px 24px 4px;
+    margin-bottom: 4px;
 }
 .p-li{
     margin: 0px;
@@ -352,8 +356,10 @@ span{
     font-size: 16px;
     line-height: 2;
     letter-spacing: 0.03em;
-    padding:  0px 24px  20px ;
 } 
+.info-portfolio {
+    padding: 20px 24px;
+}
 /* -------- */
 
 
@@ -383,9 +389,7 @@ span{
     line-height: 31px;
     letter-spacing: 0.03em;
 }
-.footer-nav{
-    margin-top: 20px;
-}
+
 .footer-nav .footer-nav-li:not(:last-child) {
     margin-bottom: 9px;
  }
@@ -397,7 +401,7 @@ span{
     color: var(--inform-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.71;
     letter-spacing: 0.02em;
  }
  
